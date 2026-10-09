@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+* {
+  box-sizing:border-box;
+}
+
+@font-face {
+  font-family:"CyberSoulja";
+  src:url("/fonts/cyber-soulja.ttf") format("truetype");
+}
+
+*{
+  box-sizing:border-box;
+}
+
+html,body,#root{
+  margin:0;
+  padding:0;
+  width:100%;
+  height:100%;
+}
+
+body{
+  background:#111;
+  font-family:"CyberSoulja",sans-serif;
+  image-rendering:pixelated;
+}
